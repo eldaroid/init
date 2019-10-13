@@ -1,0 +1,10 @@
+#!/bin/sh
+ifconfig | grep -A3 'en1:' | awk '/ether/ {print $2}'
+
+// en0 - Eternet
+// en1 - Wi-fi
+// awk - читает за один раз одну файл, выполняет определенные действия
+// awk ' /condition/ (записывается между //) {action}' || awk ' {print}' example.txt - печатает каждую строку из файла example
+// awk '/ether/ {print}' - печатает строчки вхождения 'ether' || ifconfig | awk '/ether/ {print $2 , $1} - печатает строки с 
+вхождением 'ether' и в этих стрчоках печатает сначала 2й столбец, потом 1й
+// awk '/ether/{print $2}' == grep ether | awk '{print $2}'
