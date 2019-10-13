@@ -1,1 +1,6 @@
 #!/bin/sh
+netstat -nr | grep default | head -n 1 | awk '{print $2}'
+netstat | grep default | head -n 1 | awk '{print $2}'
+// netstat - шлюз
+// sed 2d - удаляет 2ю строку в выводе
+// head -n 2 - удаляет все кроме первых 2х
