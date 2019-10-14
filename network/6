@@ -1,1 +1,9 @@
 #!/bin/sh
+//Get the complete path of the file that contains the IP address of the DNS server
+you’re using
+
+find /etc/resolv.conf
+
+//cat /etc/resolv.conf - покажет сам DNS server
+//find просто выведет его
+//https://www.cyberciti.biz/faq/how-to-find-out-dns-for-router/ - сайт где это нашел

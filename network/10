@@ -1,1 +1,7 @@
 #!/bin/sh
+//Identify the network devices between your computer and the slash16.org domain
+//Определите сетевые устройства между вашим компьютером и доменом slash16.org.
+
+traceroute slash16.org
+
+//traceroute - вывести маршрут маршрутизации на сетевой хост.

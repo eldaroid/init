@@ -1,4 +1,6 @@
 #!/bin/sh
+//Identify the MAC address of the Wi-Fi card
+
 ifconfig | grep -A3 'en1:' | awk '/ether/ {print $2}'
 
 // en0 - Eternet

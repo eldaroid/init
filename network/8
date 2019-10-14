@@ -1,1 +1,7 @@
 #!/bin/sh
+//Find the provider of slash16.org
+
+nslookup slash16.org | grep -i server
+
+//https://www.whoismyisp.org/
+//YANDEX LLC

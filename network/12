@@ -1,1 +1,5 @@
 #!/bin/sh
+//Find the IP that was assigned to you by dhcp server
+
+//firstly, nslookup slash16.org
+ping 77.88.8.7

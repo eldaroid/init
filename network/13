@@ -1,1 +1,7 @@
 #!/bin/sh
+//Thanks to the previous question and the reverse DNS find the name of your host
+//Это DNS-сервер.
+// объяснение
+// На пятый вопрос мы выяснили, что IP-адрес 10.51.1.253указывает на DNS-сервер.
+// Также следующая запись в файле /etc/resolv.conf может дополнительно подтвердить эту информацию:
+

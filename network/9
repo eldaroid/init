@@ -1,1 +1,11 @@
 #!/bin/sh
+//Find the external IP of 42.fr
+//command: dig +short 42.fr
+// or
+// nslookup 42.fr | grep Address | grep -v "#" | awk '{print $2}'
+
+163.172.250.13
+163.172.250.12
+
+//grep -v "eldar" - все кроме строк где есть eldar
+// +short - выводить только ip

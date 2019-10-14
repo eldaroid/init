@@ -1,2 +1,5 @@
  #!/bin/sh
+ //Identify and display the Ethernet interface characteristics:
+ //Identify broadcast address
+ 
  ifconfig | grep broadcast | rev | cut -d ' ' -f1 | rev

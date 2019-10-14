@@ -1,5 +1,9 @@
 #!/bin/sh // чтобы запускалсь на всех компах
+//Get the list of the network interfaces of the machine without displaying any detail
+for these interfaces. Only the list of names.
+
 ifconfig | grep ": flags" | rev | cut -d ':' -f2 | rev | tr '\n' ' ' | rev | cut -c 2- | rev
+
 // grep - поиск строк где повторяется такое вхождение ": fla "
 // cut - отрезает по чему либо -d - разрезает по определенному символу -f2 берет вторую часть от разреза
 // rev - reverse - разворачивает

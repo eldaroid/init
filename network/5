@@ -1,1 +1,14 @@
 #!/bin/sh
+//Identify the IP address of the DNS that responds to the following url: slash16.org
+
+dig slash16.org | grep SERVER | awk '{print $3}' | cut -c -9
+
+or
+
+nslookup -debug slash16.org | grep -i server | awk '{print $2}'
+
+//dig - запрашивает DNS адрес от сайта
+//nslookup - делает все то же самое
+//nslookup -debug - показывает более развернутую инфу
+//grep -i - без учета регистра (without case)
+//cut -c -9 - отрезать после 9го символа

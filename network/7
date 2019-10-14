@@ -1,1 +1,12 @@
 #!/bin/sh
+//Query an external DNS server on the slash16.org domain name (ie. : google
+8.8.8.8)
+
+dig slash16.org 8.8.8.8
+
+or 
+
+nslookup slash16.org  8.8.8.8
+
+// 8.8.8.8 хуй его знает зачем
+//nslookup более лаконично показывает инфу
