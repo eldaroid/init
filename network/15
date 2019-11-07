@@ -1,1 +1,6 @@
 #!/bin/sh
+//Make the intra.42.fr address reroute to 46.19.122.85
+
+echo 'intra.42.fr 46.19.122.85' >> /etc/hosts
+
+//но у нас нет прав чтобы сделать это

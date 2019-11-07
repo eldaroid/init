@@ -2,3 +2,9 @@
 //Identify and display the Ethernet interface characteristics:
 //Identify all IP adresses which are part of the same subnet
 
+arp -a
+
+//протокол разрешеия адресов в котором храятся екоторые пары, а добавление команды -а предлагает устройству перечислить все айпи адреса найденный в кэше arp
+//другими словами arp -a отображает все активные адреса подключенные к локальной сети 
+//arp -g You will get the list of all IP addresses on your segment.
+//https://stackoverflow.com/questions/13669585/how-to-get-a-list-of-all-valid-ip-addresses-in-a-local-network
