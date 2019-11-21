@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/21 20:12:26 by fgracefo          #+#    #+#              #
+#    Updated: 2019/11/21 20:12:27 by fgracefo         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #!/bin/sh
 //Use the output of the previous command to find the name and IP address of the
 device that makes the link between you (local network) and the outside world

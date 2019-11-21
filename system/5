@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    5                                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/21 20:11:07 by fgracefo          #+#    #+#              #
+#    Updated: 2019/11/21 21:02:02 by fgracefo         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+//Name the command that determines the state - состояние of the SSH service.
+
+сначала чтобы перейти в рут права надо прописать su и написать пароль (1234), но перед входом нужно было установить для этого расширенную версию
+затем пишем 
+sudo /etc/init.d/ssh status
+затем опять su fgracefo
+
+ но после установки sudo https://unix.stackexchange.com/questions/179954/username-is-not-in-the-sudoers-file-this-incident-will-be-reported
+можно просто вводить sudo systemctl ssh

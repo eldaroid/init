@@ -1,0 +1,13 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    17                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/21 20:11:36 by fgracefo          #+#    #+#              #
+#    Updated: 2019/11/21 20:23:12 by fgracefo         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+//Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)

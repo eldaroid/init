@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    6                                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/21 20:12:43 by fgracefo          #+#    #+#              #
+#    Updated: 2019/11/21 20:12:44 by fgracefo         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #!/bin/sh
 //Get the complete path of the file that contains the IP address of the DNS server
 you’re using

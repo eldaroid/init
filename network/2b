@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    2b                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/21 20:12:58 by fgracefo          #+#    #+#              #
+#    Updated: 2019/11/21 20:12:59 by fgracefo         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #!/bin/sh
 //Identify and display the Ethernet interface characteristics:
 //Identify all IP adresses which are part of the same subnet

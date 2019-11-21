@@ -1,0 +1,13 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/21 20:11:22 by fgracefo          #+#    #+#              #
+#    Updated: 2019/11/21 20:22:43 by fgracefo         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+//Figure out the exact size of each folder of /var in a humanly understandable way followed by the path of it.
