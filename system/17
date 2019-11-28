@@ -6,8 +6,14 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:36 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:23:12 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/11/28 19:21:13 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-//Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
+!!//Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
+
+смотрим свой ip - ip addr show | grep "inet "
+
+ssh fgracefo@127.0.0.1
+
+//connection refused - почему так может быть?

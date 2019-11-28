@@ -6,8 +6,10 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:54 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:23:53 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/11/28 19:25:15 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 //Find the command that list all packages
+
+sudo apr list --installed

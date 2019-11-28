@@ -6,8 +6,10 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:41 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:23:23 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/11/28 19:03:38 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 //List all services which are started at boot time and name this kind of services
+
+systemctl
