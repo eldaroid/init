@@ -6,8 +6,20 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:11 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:22:11 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/11/28 16:49:12 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 //Figure out the PID of the SSHD service.
+
+cat /var/run/sshd.pid
+
+or if you want more complex answer
+
+ps aux | grep ssh
+
+or
+
+systemctl status ssh | grep PID | awk '{print $3}'
+
+!!! systemctl status ssh - показывает статус твоего ssh

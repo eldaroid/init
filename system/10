@@ -6,8 +6,13 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:18 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:22:31 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/11/28 17:06:09 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 //Name the command that lists the partition tables of drives?
+
+сначала пишем su -   
+это позволит зайти нам в рут права
+затем fdisk -l
+затем чтобы вернуться с рут прав нужно напистаь su fgracefo

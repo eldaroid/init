@@ -6,8 +6,10 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:16 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:22:25 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/11/28 17:00:47 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 //What command lets you know who is connected to the System?
+
+w - показывает имена зарегестрированных пользователей и их действия.

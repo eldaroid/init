@@ -6,8 +6,14 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:31 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:23:00 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/11/28 17:57:41 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 //Find the command that kills the background command’s process
+
+ps - показывает идентификаторы процесса  ps -l - показывает полную инфу
+systemctl status ssh - статусы запущенных ssh
+затем выбираем процесс и удаляем его
+
+kill 1944
