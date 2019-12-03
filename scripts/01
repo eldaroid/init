@@ -6,7 +6,11 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:58 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:11:59 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/12/03 18:32:55 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+//Write a script which displays only the login, UID and Path of each entry of the
+/etc/passwd file.
+
+cat /etc/passwd | cut -d ':' -f1,3,7 | tr -d ':'
