@@ -6,7 +6,7 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:50 by fgracefo          #+#    #+#              #
-#    Updated: 2019/12/05 19:16:30 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/12/05 20:25:28 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,5 +14,5 @@
 
 sudo adduser test
 
-graphical only choose and write your passwrd
-ssh fgracefo@127.0.0.1 - ssh
+graphical only choose and write your passwrd with flags -XS
+ssh fgracefo@127.0.0.1 -p 2223 - ssh
