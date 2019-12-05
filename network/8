@@ -6,13 +6,16 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:12:37 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:12:38 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/12/05 17:55:19 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/sh
 //Find the provider of slash16.org
 
-nslookup slash16.org | grep -i server
+// nslookup slash16.org | grep -i server
 
+host slash16.org
+
+whois 13.33.242.215
 

@@ -6,7 +6,7 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:12:51 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/21 20:12:52 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/12/05 17:48:27 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,6 +14,10 @@
 //Identifiy the default gateway in the routing table
 
 netstat -nr | grep default | head -n 1 | awk '{print $2}'
+
+or
+
+route get default
 
 // netstat - шлюз
 // sed 2d - удаляет 2ю строку в выводе

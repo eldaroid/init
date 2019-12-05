@@ -6,10 +6,10 @@
 #    By: fgracefo <fgracefo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/11/21 20:11:46 by fgracefo          #+#    #+#              #
-#    Updated: 2019/11/28 19:10:28 by fgracefo         ###   ########.fr        #
+#    Updated: 2019/12/05 18:38:19 by fgracefo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 //List all real users on the VM
 
-cat /etc/group
+cat /etc/passwd | grep '/home/' | awk -F ':' '{print $1}'
