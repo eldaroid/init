@@ -1,12 +1,12 @@
 # init
 
-`init` is a School 42 DevOps project.
+*init* - это первый DevOps проект в [школе программирования от Сбербанка](https://21-school.ru/).
 
-It consists of three parts: 
+Он состоит из 3х частей: 
 1. Network
 2. System
 3. Scripting
 
-_At the [wiki-pages](../../wiki) of project you can find detailed explanations for each task._
+На [wiki](../../wiki) страничке проекты вы можете найти детализированной описание каждого задачи.
 
-[`init.en.pdf`](/init.en.pdf) is the task file.
+[`init.en.pdf`](/init.en.pdf) - само задание.
