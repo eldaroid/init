@@ -9,4 +9,4 @@ It consists of three parts:
 
 _At the [wiki-pages](../../wiki) of project you can find detailed explanations for each task._
 
-[`init.uk.pdf`](/init.uk.pdf) is the task file.
+[`init.en.pdf`](/init.en.pdf) is the task file.
