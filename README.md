@@ -94,48 +94,8 @@
 #### 18. Найти команду, которая убивает службу SSH
 `systemctl stop ssh`
 #### 19. Перечислите все сервисы, которые запускаются во время загрузки, и назовите этот вид сервисов.
-`/*
-** systemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'
-*/
+`systemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'`
 
-accounts-deamon
-
-anacron
-apparmor
-autovt@
-avahi-deamon
-bluetooth
-console-setup
-cron
-cups-browsed
-cups
-dbus-fi.w1.wpa_supplicant1
-dbis-org.bluez
-dbis-org.freedesktop.Avahi
-dbis-org.freedesktop.ModemManager1
-dbis-org.freedesktop.nm-dispather
-dbis-org.freedesktop.timesync1
-getty@
-keyboard-setup
-ModemManager
-network-manager
-networking
-NetworkManager-dispatcher
-NetworkManager-wait-online
-NetworkManager
-pppd-dns
-rsyslog
-ssh
-sshd
-switheroo-control
-syslog
-systemd-fsck-root
-systemd-timesyncd
-udisks2
-unattended-upgrades
-wpa_supplicant
-
-Type: daemon`
 #### 20. Перечислите всех существующих пользователей на ВМ
 `cat /etc/passwd | awk -F':' '{print $1}'`
 #### 21. Список всех реальных пользователей на ВМ
