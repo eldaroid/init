@@ -15,7 +15,7 @@
 
 ![alt text](https://github.com/eldaroid/pictures/blob/master/init/score.png)
 
-## Network:
+## `Network:`
 ### 1. Получите список сетевых интерфейсов машины, не отображая никаких деталей. Только список имен.
 ![01](https://github.com/do8rolyuboff/Init/blob/master/other/01.png)
 ### 2. Определите и отобразите характеристики интерфейса Ethernet:
