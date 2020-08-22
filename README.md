@@ -1,6 +1,6 @@
 # init
 
-## Обзор проекта
+#### Обзор проекта
 
 ![alt text](https://github.com/eldaroid/pictures/blob/master/init/init_branch.png)
 
@@ -14,6 +14,8 @@
 Все задачи, связанные с администрированием системы Unix. Некоторые из них были протестированы на виртуальной машине Debian и не могли быть выполнены на macos. Этот проект был завершен 5 декабря 2020 года и оценен на 100 баллов. Задание: [`init.en.pdf`](/init.en.pdf).
 
 ![alt text](https://github.com/eldaroid/pictures/blob/master/init/score.png)
+
+#### Структура init
 
 ## `Network:`
 
