@@ -1,6 +1,6 @@
 # init
 
-#### Обзор проекта
+## Обзор проекта
 
 ![alt text](https://github.com/eldaroid/pictures/blob/master/init/init_branch.png)
 
@@ -15,31 +15,31 @@
 
 ![alt text](https://github.com/eldaroid/pictures/blob/master/init/score.png)
 
-#### Структура init
+## Структура init
 
-## `Network:`
+### `Network:`
 
-### 1. Получите список сетевых интерфейсов машины, не отображая никаких деталей. Только список имен.
+#### 1. Получите список сетевых интерфейсов машины, не отображая никаких деталей. Только список имен.
 ![01](https://github.com/do8rolyuboff/Init/blob/master/other/01.png)
-### 2. Определите и отобразите характеристики интерфейса Ethernet:
-###     (а) Определить широковещательный адрес
+#### 2. Определите и отобразите характеристики интерфейса Ethernet:
+####     (а) Определить широковещательный адрес
 ![02a](https://github.com/do8rolyuboff/Init/blob/master/other/02(a).png)
-###     (b) Определите все IP-адреса, которые являются частью одной подсети.
+####     (b) Определите все IP-адреса, которые являются частью одной подсети.
 ![02b](https://github.com/do8rolyuboff/Init/blob/master/other/02(b).png)
-### 3. Определите MAC-адрес карты Wi-Fi.
+#### 3. Определите MAC-адрес карты Wi-Fi.
 ![03](https://github.com/do8rolyuboff/Init/blob/master/other/03.png)
-### 4. Определите шлюз по умолчанию в таблице маршрутизации.
+#### 4. Определите шлюз по умолчанию в таблице маршрутизации.
 ![04](https://github.com/do8rolyuboff/Init/blob/master/other/04.png)
-### 5. Определите IP-адрес DNS, который отвечает на следующий URL: slash16.org
+#### 5. Определите IP-адрес DNS, который отвечает на следующий URL: slash16.org
 ![05](https://github.com/do8rolyuboff/Init/blob/master/other/05.png)
-### 6. Получить полный путь к файлу, который содержит IP-адрес DNS-сервера вы используете
+#### 6. Получить полный путь к файлу, который содержит IP-адрес DNS-сервера вы используете
 `/etc/resolv.conf`
-### 7. Запросите внешний DNS-сервер по доменному имени slash16.org (т. Е. Google. 8.8.8.8)
+#### 7. Запросите внешний DNS-сервер по доменному имени slash16.org (т. Е. Google. 8.8.8.8)
 ![07](https://github.com/do8rolyuboff/Init/blob/master/other/07.png)
-### 8. Найдите поставщика slash16.org
+#### 8. Найдите поставщика slash16.org
 `ost slash16.org' or 'nslookup slash16.org`
 `whois 13.33.242.162' or 'https://ipinfo.io/`
-### 9. Найти внешний IP 42.fr
+#### 9. Найти внешний IP 42.fr
 `163.172.250.12`
 `163.172.250.13`
 ### 10. Определите сетевые устройства между вашим компьютером и доменом slash16.org.
